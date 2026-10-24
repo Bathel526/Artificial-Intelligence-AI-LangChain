@@ -1,0 +1,9 @@
+from langchain_ollama import ChatOllama
+
+
+model = ChatOllama(
+    model="qwen3:4b-instruct-2507-q4_K_M",
+    temperature=0,
+    reasoning=False,
+    num_predict=700,
+)
