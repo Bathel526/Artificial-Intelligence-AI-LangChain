@@ -5,3 +5,7 @@ pycache/
 .idea/
 .vscode/
 .pytest_cache/
+
+# Modele głosowe Piper
+*.onnx
+*.onnx.json
