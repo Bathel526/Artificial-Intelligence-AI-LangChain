@@ -84,6 +84,3 @@ def create_study_note(material: str) -> dict:
     note = structured_model.invoke(prompt)
 
     return note.model_dump()
-
-    return note.model_dump()
-
